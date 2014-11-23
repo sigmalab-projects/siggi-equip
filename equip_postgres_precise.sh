@@ -11,3 +11,6 @@ sudo sh -c 'sudo echo "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg
 
 sudo apt-get update -y
 sudo apt-get install postgresql-9.3 -y
+
+# stop service started by installation process
+sudo service postgresql stop

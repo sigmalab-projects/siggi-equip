@@ -14,4 +14,6 @@ sudo apt-get update -y
 sudo apt-get install dsc21 -y
 sudo apt-get install cassandra-tools -y
 
+# stop service started by installation process
 sudo service cassandra stop
+sudo rm -rf /var/lib/cassandra/data/system/*
