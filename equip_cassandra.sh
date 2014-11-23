@@ -11,4 +11,7 @@ sudo wget -q -O - http://debian.datastax.com/debian/repo_key | sudo apt-key add 
 sudo sh -c 'sudo echo "deb http://debian.datastax.com/community/ stable main" > /etc/apt/sources.list.d/datastax.list'
 
 sudo apt-get update -y
-sudo apt-get install dsc12 -y
+sudo apt-get install dsc21 -y
+sudo apt-get install cassandra-tools -y
+
+sudo service cassandra stop
