@@ -17,6 +17,12 @@ To install Cassandra (make sure Java was installed before):
 wget --no-check-certificate https://github.com/sigmalab-projects/siggi-equip/raw/master/equip_cassandra.sh && bash equip_cassandra.sh
 ```
 
+To install Redis:
+
+```
+wget --no-check-certificate https://github.com/sigmalab-projects/siggi-equip/raw/master/equip_redis.sh && bash equip_redis.sh
+```
+
 ###Resources
 
 https://launchpad.net/~chris-lea
